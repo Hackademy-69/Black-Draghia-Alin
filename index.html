@@ -1,25 +1,25 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Black</title>
-
+    
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-
-
+    
+    
+    
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-
+    
+    
     <!-- css -->
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+</head>
+<body>
     
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-navcustom sticky-top">
@@ -30,7 +30,7 @@
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-user-astronaut text-wh"></i>
             </button>
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -55,63 +55,159 @@
         </div>
     </nav>
     
-    <main>
-        <!-- header -->
-        <header class="container-fluid">
-            <div class="row header-custom align-items-center">
-                <div class="col-12">
-                    <h1>Lorem ipsum</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur.</p>
-                </div>
+    
+    <!-- header -->
+    <header class="container-fluid">
+        <div class="row header-custom align-items-center">
+            <div class="col-12 ps-5">
+                <h1>Lorem ipsum</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur.</p>
             </div>
-        </header>
-
-
+        </div>
+    </header>
+    
+    <main>
+        
         <!-- numbers -->
         <section class="container-fluid">
             <div class="row justify-content-evenly">
-                <div class="col-12 col-md-6 col-lg-2 bor-bottom">
+                <div class="col-8 col-md-6 col-lg-2 bor-bottom">
                     <h3 class="text-center">Lorem</h3>
                     <h1 class="text-center">12</h1>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-2 bor-bottom">
+                
+                <div class="col-8 col-md-6 col-lg-2 bor-bottom">
                     <h3 class="text-center">Lorem</h3>
                     <h1 class="text-center">523</h1>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-2 bor-bottom">
+                
+                <div class="col-8 col-md-6 col-lg-2 bor-bottom">
                     <h3 class="text-center">Lorem</h3>
                     <h1 class="text-center">6'561</h1>
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-2 bor-bottom">
+                
+                <div class="col-8 col-md-6 col-lg-2 bor-bottom">
                     <h3 class="text-center">Lorem</h3>
                     <h1 class="text-center">464'567</h1>
                 </div>
             </div>
         </section>
-
+        
         <!-- moon with text -->
         <section class="container-fluid">
-            <div class="row">
-                <div class="col-6">
-                    <h2>lorem ipsum</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, optio reiciendis? Rerum magnam consectetur recusandae alias ab nostrum vel. Eius sit sequi voluptatem odit neque ipsam quidem quos voluptas? Delectus?</p>
+            <div class="row moon_with_text align-items-center py-5 my-5">
+                <div class="col-12 col-md-6">
+                    <h2 class="text-lbl ">Lorem ipsum</h2>
+                    <p class="text-szcustom1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, optio reiciendis? Rerum magnam consectetur recusandae alias ab nostrum vel. Eius sit sequi voluptatem odit neque ipsam quidem quos voluptas? Delectus?</p>
+                    
                 </div>
+                <div class="col-12 col-md-6">
+                    <img src="./media/moon2.jpg" alt="moon" class="img-fluid">
+                </div>
+                
             </div>
         </section>
-
-
-
-
-
-    </main>
-
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/081c0a950a.js" crossorigin="anonymous"></script>
-
-    <!-- bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
-</html>
+        
+        <!-- cards -->
+        <section class="container-fluid">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <article class="my-5 py-5">
+                        
+                        <h2 class="bor-bottom">
+                            <i class="fa-solid fa-meteor fa-1x text-lbl my-3 me-3">    
+                            </i>
+                            Lorem</h2>
+                            
+                            <p class="text-szcustom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum vero, fugiat dolorum fugit natus earum cupiditate.</p>
+                        </article>
+                        
+                        <article class="my-5 py-5">
+                            
+                            <h2 class="bor-bottom">
+                                <i class="fa-solid fa-rocket fa-1x text-lbl my-3 me-3">    
+                                </i>
+                                Lorem</h2>
+                                
+                                <p class="text-szcustom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum vero, fugiat dolorum fugit natus earum cupiditate.</p>
+                            </article>
+                        </div>
+                        
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <article class="my-5 py-5">
+                                
+                                <h2 class="bor-bottom text-center">
+                                    <i class="fa-solid fa-sun fa-1x text-lbl my-3 me-3">    
+                                    </i>
+                                    Lorem</h2>
+                                    
+                                    <p class="text-szcustom text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum vero, fugiat dolorum fugit natus earum cupiditate.</p>
+                                </article>
+                            </div>
+                            
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <article class="my-5 py-5">
+                                    
+                                    <h2 class="bor-bottom text-end">
+                                        <i class="fa-solid fa-ghost fa-1x text-lbl my-3 me-3">    
+                                        </i>
+                                        Lorem</h2>
+                                        
+                                        <p class="text-szcustom text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum vero, fugiat dolorum fugit natus earum cupiditate.</p>
+                                    </article>
+                                    <article class="my-5 py-5">
+                                        
+                                        <h2 class="bor-bottom text-end">
+                                            <i class="fa-solid fa-moon fa-1x text-lbl my-3 me-3">    
+                                            </i>
+                                            Lorem</h2>
+                                            
+                                            <p class="text-szcustom text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum vero, fugiat dolorum fugit natus earum cupiditate.</p>
+                                        </article>
+                                    </div>
+                                </div>
+                            </section>
+                            
+                            <!-- saturn V -->
+                            
+                            <section class="container-fluid margin-saturn">
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        
+                                        
+                                        <div class="row vh-100 justify-content-between align-items-center">
+                                            <div class="col-10 mb-5">
+                                                <h2 class="text-lbl">Lorem</h2>
+                                                <p class="text-szcustom1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, cum. Repudiandae impedit atque maiores, corporis eos facilis laboriosam cupiditate ad illo dignissimos, voluptas quidem aperiam, doloribus incidunt ducimus libero labore.</p>
+                                            </div>
+                                            <div class="col-10 my-5">
+                                                <h2 class="text-lbl">Lorem</h2>
+                                                <p class="text-szcustom1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, cum. Repudiandae impedit atque maiores, corporis eos facilis laboriosam cupiditate ad illo dignissimos, voluptas quidem aperiam, doloribus incidunt ducimus libero labore.</p>
+                                            </div>
+                                            <div class="col-10 mt-5">
+                                                <h2 class="text-lbl">Lorem</h2>
+                                                <p class="text-szcustom1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, cum. Repudiandae impedit atque maiores, corporis eos facilis laboriosam cupiditate ad illo dignissimos, voluptas quidem aperiam, doloribus incidunt ducimus libero labore.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                                        <img src="./media/saturnV.png" alt="Saturn 5" class="vh-100 w-50">
+                                    </div>
+                                    
+                                </div>
+                            </section>
+                            
+                            
+                            
+                            
+                        </main>
+                        
+                        <!-- font awesome -->
+                        <script src="https://kit.fontawesome.com/081c0a950a.js" crossorigin="anonymous"></script>
+                        
+                        <!-- bootstrap -->
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+                    </body>
+                    </html>
